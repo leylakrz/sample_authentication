@@ -2,7 +2,7 @@ import logging
 
 import kavenegar
 
-from vod_api.settings import KAVENEGAR_APIKEY, KAVENEGAR_TEMPLATE, KAVENEGAR_TEMPLATE_LOGIN, KAVENEGAR_PHONE_SENDER
+from prj.settings import KAVENEGAR_APIKEY, KAVENEGAR_TEMPLATE, KAVENEGAR_TEMPLATE_LOGIN, KAVENEGAR_PHONE_SENDER
 
 from apps.utils.sms_sender import SmsSender
 

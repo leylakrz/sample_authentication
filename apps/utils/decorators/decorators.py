@@ -2,7 +2,7 @@ from typing import Callable
 
 import redis
 
-from vod_api.settings import logger
+from prj.settings import logger
 
 
 def redis_error_handler(func: Callable) -> Callable:

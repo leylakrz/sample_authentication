@@ -12,7 +12,7 @@ from apps.utils.custom_respnse import CustomResponse
 from apps.utils.messages import WRONG_OTP_CODE, OTP_SENT, INVALID_INPUT_ERROR
 from apps.utils.sms_sender.kave_negar import KaveNegar
 from apps.utils.validators import mobile_format
-from vod_api.settings import OTP_CODE_LENGTH
+from prj.settings import OTP_CODE_LENGTH
 
 
 class LoginView(APIView):

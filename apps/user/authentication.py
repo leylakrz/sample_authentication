@@ -5,7 +5,7 @@ import jwt
 
 from apps.user.queries import get_user_obj, check_user_exists
 from apps.utils.exceptions import AuthenticationError
-from vod_api.settings import SECRET_KEY, ACCESS_TOKEN_EXP, REFRESH_TOKEN_EXP, logger
+from prj.settings import SECRET_KEY, ACCESS_TOKEN_EXP, REFRESH_TOKEN_EXP, logger
 
 
 class TokenType(enum.Enum):

@@ -1,7 +1,7 @@
 from django.core.cache import cache
 
 from apps.utils.decorators.decorators import redis_error_handler
-from vod_api.settings import OTP_TIMEOUT_SECOND
+from prj.settings import OTP_TIMEOUT_SECOND
 
 otp_cache_key = lambda user_phone_number: f"otp_{user_phone_number}"
 
