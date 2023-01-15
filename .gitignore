@@ -1,0 +1,6 @@
+/venv
+*.sqlite3
+.idea
+.idea/*
+*.xml
+*.iml
