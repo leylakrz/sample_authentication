@@ -1,0 +1,5 @@
+WRONG_OTP_CODE = "کد وارد شده اشتباه است و یا منقضی شده است."
+OTP_SENT = "کد ورود ارسال شد."
+AUTHORIZATION_ERROR = "Authorization is not provided or is not valid."
+INVALID_INPUT_ERROR = "ورودی نامعتبر است."
+BIRTHDATE_CODE = "تاریخ تولد وارد شده نامعتبر است."
